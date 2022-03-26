@@ -94,4 +94,9 @@ Robo and Cyrus come out much brighter and cleaner.
 
 Crono comes out with some color corrections to the hair and clothes
 
+Magus comes out more pale with white hair.
 
+## Localized stability problems
+
+On close inspection one of the adjustements being made to the "Crono Trigger Pixel Remaster" images is flat consistent colors get blended. This makes for smoother details on Ayla's hair or texture on clothing but in the case of Robo or Frog with his sword it becomes obvious that there is some noise being added when the smooth surface gets muddied.
+ 
