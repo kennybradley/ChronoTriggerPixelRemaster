@@ -100,3 +100,9 @@ Magus comes out more pale with white hair.
 
 On close inspection one of the adjustements being made to the "Crono Trigger Pixel Remaster" images is flat consistent colors get blended. This makes for smoother details on Ayla's hair or texture on clothing but in the case of Robo or Frog with his sword it becomes obvious that there is some noise being added when the smooth surface gets muddied.
  
+
+# Summary of the Results
+ 
+In most cases the characters are brightened but there are consistent results for each character. Marle has a slight change of color on her pants and darker hair, Ayla has darker hair and darker edges. Crono's hair is slightly more orange and his blue changes slightly. Robo looks much cleaner.
+
+This was made by taking the FF remaster sprites from FF Remaster 4-6 along with the originals and training an AI to learn how to convert from original to the remaster. Then I fed in the CT original images to see how it would generate CT Remaster sprites.
