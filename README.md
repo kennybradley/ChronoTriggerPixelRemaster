@@ -47,8 +47,12 @@ I tried using an autoencoder where the input was the original image and the outp
 
 ![](images/Autoencoder.png)
 
+Then changed the resnet to a convolutional network with separable layers to try to handle the colors but again the output was blurry no matter how I adjusted the network.
 
-I changed the network to be a version of resnet with very small inputs since the data is 48x48. Again the results were simply a blurry version of the input image.  Then I added a custom sharpen layer to the end of the network and that didn't help at all.
+![](images/CNN.png)
+
+
+I changed the network to be a modified resnet with very small inputs (since the data is 48x48). The results were better but looked like a blurry version of the input image.  Then I added a custom sharpen layer to the end of the network and that didn't help at all.
 
 ![](images/Resnet.png)
 
@@ -79,6 +83,12 @@ CycleGAN assumes that the training examples are not directly comparable, but tha
 But in the case of the Original and Remastered sprites we have pairings that we can use where each class A image can be directly compared against the class B image.  I removed the shuffling from the CycleGAN data preparation so each batch would pass in corresponding images.
 
 This resulted in improved predictions.
+
+![](images/CycleGAN2_example1.png)
+![](images/CycleGAN2_example2.png)
+![](images/CycleGAN2_example3.png)
+![](images/CycleGAN2_example4.png)
+
 
 # Inspection of the results
 
