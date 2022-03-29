@@ -47,7 +47,7 @@ I tried using an autoencoder where the input was the original image and the outp
 
 ![](images/Autoencoder.png)
 
-Then changed the resnet to a convolutional network with separable layers to try to handle the colors but again the output was blurry no matter how I adjusted the network.
+Then changed the autoencoder to a convolutional network with separable layers to try to handle the colors but again the output was blurry no matter how I adjusted the network.
 
 ![](images/CNN.png)
 
