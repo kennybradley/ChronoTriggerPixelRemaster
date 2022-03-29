@@ -90,16 +90,16 @@ This resulted in much improved predictions.
 
 ### Inspection of the results
 
-![](images/CycleGAN2_example1.png)
-![](images/CycleGAN2_example2.png)
-![](images/CycleGAN2_example3.png)
-![](images/CycleGAN2_example4.png)
-![](images/CycleGAN2_example5.png)
-![](images/CycleGAN2_example6.png)
-![](images/CycleGAN2_example7.png)
-![](images/CycleGAN2_example8.png)
-![](images/CycleGAN2_example9.png)
-![](images/CycleGAN2_example10.png)
+![](images/cycleGAN2_example1.png)
+![](images/cycleGAN2_example2.png)
+![](images/cycleGAN2_example3.png)
+![](images/cycleGAN2_example4.png)
+![](images/cycleGAN2_example5.png)
+![](images/cycleGAN2_example6.png)
+![](images/cycleGAN2_example7.png)
+![](images/cycleGAN2_example8.png)
+![](images/cycleGAN2_example9.png)
+![](images/cycleGAN2_example10.png)
 
 While Ayla and Marle both have their blonde hair darkened, Marle has her pants coloration changed.  This effect is consistent among all sprites of the same character.
 
