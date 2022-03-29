@@ -86,25 +86,24 @@ CycleGAN assumes that the training examples are not directly comparable, but tha
 
 But in the case of the Original and Remastered sprites we have pairings that we can use where each class A image can be directly compared against the class B image.  I removed the shuffling from the CycleGAN data preparation so each batch would pass in corresponding images.
 
-This resulted in improved predictions.
+This resulted in much improved predictions.
+
+### Inspection of the results
 
 ![](images/CycleGAN2_example1.png)
 ![](images/CycleGAN2_example2.png)
 ![](images/CycleGAN2_example3.png)
 ![](images/CycleGAN2_example4.png)
-
-
-# Inspection of the results
-
-![](images/ColorDifferences1.png)
-![](images/ColorDifferences2.png)
-![](images/ColorDifferences3.png)
-
-## Consistent Character differences
+![](images/CycleGAN2_example5.png)
+![](images/CycleGAN2_example6.png)
+![](images/CycleGAN2_example7.png)
+![](images/CycleGAN2_example8.png)
+![](images/CycleGAN2_example9.png)
+![](images/CycleGAN2_example10.png)
 
 While Ayla and Marle both have their blonde hair darkened, Marle has her pants coloration changed.  This effect is consistent among all sprites of the same character.
 
-Robo and Cyrus come out much brighter and cleaner.
+Robo and Cyrus come out cleaner.
 
 Crono comes out with some color corrections to the hair and clothes
 
