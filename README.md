@@ -74,7 +74,11 @@ CycleGAN gives the ability to convert from class A to class B and from class B b
 
 The results were terrible as well.
 
-![](images/SingleGAN.png)
+![](images/SingleGAN_ColorComparison.png)
+
+In order from left to right are: Original, Output, Difference in Blue, Difference in Green, Difference in Blue
+
+A loss of color is visualized by the gray, an increase shows the color at the pixel of interest.
 
 ## Pair Modified CycleGAN
 
